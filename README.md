@@ -1,6 +1,4 @@
 # Trillo App
-
-# Purpose
 Creating a flexbox based app meant for all in one travel booking.
 
 # Technologies Used
