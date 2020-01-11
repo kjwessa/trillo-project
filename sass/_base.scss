@@ -20,7 +20,9 @@ The :root pesudo class is like the html class, but has higher specificity
     --color-grey-dark-2: #777;
     --color-grey-dark-3: #999;
 
-    --color-black: rgba(0,0,0);
+    --color-white-1: #fff;
+
+    --shadow-dark: 0 2em 6rem rgba(0,0,0, .3);
 }
 
 * {
@@ -31,7 +33,7 @@ The :root pesudo class is like the html class, but has higher specificity
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+box-sizing: inherit;
 }
 
 html {
