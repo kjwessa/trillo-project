@@ -22,7 +22,11 @@ The :root pesudo class is like the html class, but has higher specificity
 
     --color-white-1: #fff;
 
-    --shadow-dark: 0 2em 6rem rgba(0,0,0, .3); }
+    --shadow-dark: 0 2em 6rem rgba(0,0,0, .3); 
+    --shadow-light: 0 2rem 5rem rgba(0,0,0, .06);
+
+    --line: 1px solid var(--color-grey-light-2);
+}
 
 * {
     margin: 0;
